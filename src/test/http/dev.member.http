@@ -1,0 +1,10 @@
+### Send POST request with json body
+POST http://localhost/member
+Content-Type: application/json
+
+{
+  "memberName" : "jkchoi2",
+  "password" : "123456",
+  "nickname": "janjanbari2",
+  "email" : "jkchoi2@naver.com"
+}
